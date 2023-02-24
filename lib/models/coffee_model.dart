@@ -16,7 +16,7 @@ class CoffeeModel {
 
   static List<CoffeeModel> list = [
     CoffeeModel(
-      name: 'Coffee Americano',
+      name: 'American Coffee',
       detail:
           'Enjoy the unique flavor and aroma of coffee, plus its stimulating effect that can help increase concentration and energy.',
       image: AppIcons.americano,
@@ -24,7 +24,7 @@ class CoffeeModel {
       category: 'Coffee',
     ),
     CoffeeModel(
-      name: 'Coffee Macchiato',
+      name: 'Macchiato Coffee',
       detail:
           'It can be served hot or cold and can be customized to individual tastes by adding more or less frothed milk.',
       image: AppIcons.macchiato,

@@ -22,7 +22,8 @@ class CoffeeTile extends StatelessWidget {
       width: sizeWidthItem,
       child: Stack(
         children: [
-          Expanded(
+          SizedBox(
+            height: 330,
             child: Card(
               elevation: 6,
               shadowColor: Colors.black12,
