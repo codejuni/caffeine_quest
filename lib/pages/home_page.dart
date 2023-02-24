@@ -122,10 +122,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       trailing: TextButton(
                         onPressed: () {},
                         child: Text(
-                          'Chage city',
+                          'Change city',
                           style:
                               Theme.of(context).textTheme.bodyMedium!.copyWith(
                                     color: Theme.of(context).primaryColor,
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.normal,
                                   ),
                         ),
                       ),
